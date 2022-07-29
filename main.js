@@ -32,14 +32,12 @@ burgerButton = document.querySelector(".burger");
 burgerButton.addEventListener("click", () =>{
     
     if(menuBurger.classList.contains('active')){
-        console.log("EEEEEEEEEEEEEEEEEEE")
         menuBurger.classList.remove('active');
         for (let i = 0; i < listItems.length; i++) {
             listItems[i].style.display = "none"
         }
     
     }else{
-        console.log("AAAAAAAA")
         menuBurger.classList.add('active');
         for (let i = 0; i < listItems.length; i++) {
             listItems[i].style.display = "block"

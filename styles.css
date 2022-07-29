@@ -18,9 +18,12 @@
     height: 100vh;
     width: 100%;
     z-index: -10;
-    background: #252934;
+    background: #233554;
 }
 
+.flex-about-image div{
+    margin-top: 50px;
+}
 
 .container-presentation{
    
@@ -33,6 +36,8 @@
 }
 .title-presentation{
     color: white;
+    font-size: 43px;
+    line-height: 1.4;
 }
 
 
@@ -41,6 +46,7 @@
     text-align: center;
     background: transparent;
     margin: auto 0;
+    vertical-align: middle;
 }
 h2{
     font-weight: 300;
@@ -48,14 +54,48 @@ h2{
 
 .work-button{
     z-index: 7;
-    margin-top: 10px;
+    margin-top: 15px;
     position: relative;
     display: inline-block;
     text-decoration: none;
-    padding: 10px 30px;
+    padding: 17px 43px;
     background-color: transparent;
     border: 2px solid white;
     color: azure;
+    font-size: 20px;
+}
+
+.flex-about{
+    display: flex;
+    
+}
+
+.flex-about-image{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-basis: 1 0 50%;
+    
+}
+
+.decoration-about{
+    width: 50%;
+    height: 50%;
+    position: absolute;
+    z-index: -10;
+    right : 0;
+    top: 0;
+    background-color: aquamarine;    
+}
+
+
+.line-about-me{
+    height: 3px;
+    width: 400px;
+    background-color: #181a1f;
+    margin: 0 auto;
+    margin-top: 20px;
 }
 
 .icon-work{
@@ -100,7 +140,7 @@ header .menu a{
 
 header .menu a:hover{
   
-    color:rgb(211, 149, 91);
+    color: #64ffda;
 }
 
 
@@ -173,13 +213,12 @@ header{
 }
 
 p{
-    text-align: center;
+    text-align: left;
 }
 
 .flex-container-item-who{
     text-align: center;
-    padding-left: 23%;
-    padding-right: 23%;
+    
 }
 
 img{
@@ -216,9 +255,15 @@ label{
     margin-top: 15px;
 }
 
-img {
+.flex-container-skills img {
     filter: grayscale(100%);
-  }
+    margin: 0 10px;
+}
+
+.flex-container-skills img:hover {
+    filter: grayscale(0);
+}
+
 .project-flex{
     
     align-self: flex-start;
@@ -362,8 +407,8 @@ form button{
 }
 
 .contact-section{
-    padding-top: 100px;
-    padding-bottom: 160px;
+    padding-top: 130px;
+    padding-bottom: 245px;
 }
 
 .bar{

@@ -92,8 +92,8 @@ h2{
 
 .line-about-me{
     height: 3px;
-    width: 400px;
-    max-width: 350px;
+    max-width: 200px;
+    
     background-color: #181a1f;
     margin: 0 auto;
     margin-top: 20px;

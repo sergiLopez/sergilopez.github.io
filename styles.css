@@ -65,17 +65,21 @@ h2{
     font-size: 20px;
 }
 
-.flex-about{
-    display: flex;
+
+.container-image{
     
+    display: flex;
+    justify-content: center;
+    align-items: center;
+      
 }
 
 .flex-about-image{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
-    flex-basis: 1 0 50%;
+    flex-basis: 1;
     
 }
 
@@ -432,6 +436,12 @@ form button{
     opacity: 0.8;
 }
 
+.description{
+    width: 30%; 
+    margin-right: 80px;
+    margin-left: 50px;
+}
+
 
 @media (max-width:768px) {
     .menu-burger{
@@ -442,4 +452,14 @@ form button{
     .menu{
         display: none;
     }
+}
+
+
+@media (max-width:1000px) {
+    .description{
+        width: 70%; 
+        margin-right: 80px;
+        margin-left: 50px;
+    }
+    
 }

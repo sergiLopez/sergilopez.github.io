@@ -93,6 +93,7 @@ h2{
 .line-about-me{
     height: 3px;
     width: 400px;
+    max-width: 350px;
     background-color: #181a1f;
     margin: 0 auto;
     margin-top: 20px;
@@ -222,8 +223,8 @@ p{
 }
 
 img{
-    width: 55px;
-    min-width: 55px;
+    width: 48px;
+    min-width: 48px;
     
     margin-bottom: 10px;
     margin-right: 5px;
@@ -257,7 +258,7 @@ label{
 
 .flex-container-skills img {
     filter: grayscale(100%);
-    margin: 0 10px;
+    margin: 0 6px;
 }
 
 .flex-container-skills img:hover {

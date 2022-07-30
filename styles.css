@@ -58,7 +58,7 @@ h2{
     position: relative;
     display: inline-block;
     text-decoration: none;
-    padding: 14px 40px;
+    padding: 14px 33px;
     background-color: transparent;
     border: 2px solid white;
     color: azure;
@@ -322,7 +322,7 @@ form input, form textarea{
 
 form button{
     padding: 15px;
-    background: rgb(30, 155, 155);;
+    background: linear-gradient(120deg, rgb(30, 155, 155), rgb(46, 69, 143));
     color: white;
     font-size: 18px;
     border: 0;
@@ -331,6 +331,11 @@ form button{
     margin: 20px auto 0;
     border-radius: 3px;
     cursor: pointer;
+}
+
+form button:hover{
+    opacity: 0.7;
+    transition-duration: 0.3s;
 }
 
 .button-project{
@@ -419,6 +424,11 @@ form button{
     position: relative;
     padding-top: 130px;
     padding-bottom: 245px;
+}
+
+.icon-footer-box{
+    text-align: center; 
+    margin-top: 18px;
 }
 
 .icon-footer{
@@ -511,5 +521,9 @@ form button{
         margin-right: 80px;
         margin-left: 50px;
     }
+    .icon-footer-box{
+        margin-bottom: -25px;
+    }
+    
     
 }

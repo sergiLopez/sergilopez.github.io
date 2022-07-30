@@ -41,7 +41,7 @@
        
         <div id="intro" class="intro">
             <div class="content-presentation">
-                <h1 class="title-presentation">Hi! <span class="name-presentation">I'm Sergio Lopez</span>, <br> I'm a computer engineering student</h1>
+                <h1 class="title-presentation">Hi! <span class="name-presentation auto-type"></span>, <br> I'm a computer engineering student</h1>
                 <a href="#" href="about" class="work-button">See my work<i class="fa-solid fa-arrow-right icon-work"></i></a>
             </div>
         </div> 
@@ -180,11 +180,19 @@
         
        
 
-        
+        <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>    
         <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
         <script src="particles.js"></script>
         <script src="app.js"></script>
         <script src="main.js"></script>
+        <script>
+            var typed = new Typed(".auto-type", {
+                strings: ["I'm Sergio Lopez"],
+                typeSpeed: 70,
+                loop: false,
+                smartBackspace: true
+            })
+        </script>
         
 </body>
 </html>

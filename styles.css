@@ -145,7 +145,7 @@ header .menu a{
 
 header .menu a:hover{
   
-    color: #64ffda;
+    color: rgb(30, 155, 155);
 }
 
 
@@ -177,7 +177,7 @@ header .menu a:hover{
 
 .flex-container-skills img{
     margin: 0 11px !important; 
-    transform: scale(1.15);
+    transform: scale(1.05);
    
 }
 
@@ -530,9 +530,4 @@ form button:hover{
         margin-right: 80px;
         margin-left: 50px;
     }
-    .icon-footer-box{
-        margin-bottom: -25px;
-    }
-    
-    
 }
